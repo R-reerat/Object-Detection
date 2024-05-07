@@ -1,6 +1,5 @@
 ## Requirements
-- [opencv-python]
-- [ROS Noetic](http://wiki.ros.org/noetic)
+- opencv-python
 - [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3), [turtlebot3_msgs](https://github.com/ROBOTIS-GIT/turtlebot3_msgs) and [turtlebot3_simulations](https://github.com/ROBOTIS-GIT/turtlebot3_simulations)
 - [ultralytics](https://docs.ultralytics.com/quickstart/#install-ultralytics)
 
@@ -10,7 +9,7 @@
 - หากตรวจจับเจอวัตถุ(ในที่นี้คือคน) โปรแกรมจะส่งภาพที่ตรวจจับได้ไปยัง detection.py ผ่านอี topic '/rgb/image'
 2. `detection.py`
 - รับภาพที่ส่งมาจาก image_processor.py ผ่านอี topic '/rgb/image'
-- ตรวจสอบภาพว่ามีคนหรือไม่ ถ้าเจอคนปริ้นข้อความ "Hello there!" ใน terminal เพื่อทักทาย
+- ตรวจสอบภาพว่ามีคนหรือไม่ ถ้าเจอคนปริ้นข้อความ `Hello there!` ใน terminal ทักทาย
 
 ## Build this?
 1. Install the requirements
