@@ -10,5 +10,5 @@
 4. Do build.
 
 ## run
-roslaunch turtlebot3_object_tracker turtlebot3_object_tracker.launch
+`roslaunch turtlebot3_object_tracker turtlebot3_object_tracker.launch`
 ## this is turtlebot3 **burger** not **waffle** you can change
